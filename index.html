@@ -9,24 +9,49 @@
 
 </head>
 <body>
-  <header></header>
+  <header><h1>Positive Covid Dashboard</h1></header>
 
   <main>
     <div class="container">
       <div class="dropdown">
-        
+        <p>Choose a region:</p>
+        <select name="health-region" class="region-dropdown">
+        </select>
       </div>
       <div class="map"><iframe></iframe></div>
       <div class="stats-province">
-        <div class="card-totalRecoveries"></div>
-        <div class="card-totalVaccinations"></div>
-        <div class="card-totalVaccinated"></div>
+        <h2 class="stats-title">Provinical Status:</h2>
+        <div class="card-totalRecoveries">
+          <h3 class="card-title">Total Recoveries</h3>
+          <span class="total-recoveries">
+          </span>
+        </div>
+        <div class="card-totalVaccinations">
+          <h3 class="card-title">Total Vaccinations</h3>
+          <span class="total-vaccinations"></span>
+        </div>
+        <div class="card-totalVaccinated">
+          <h3 class="card-title">Total Vaccinated</h3>
+          <span class="total-vaccinated"></span>
+        </div>
       </div>
       
       <div class="stats-region">
-        <div class="card-totalCases"></div>
-        <div class="card-changeCases"></div>
-        <div class="card-totalRecoveries"></div>
+        <h2 class="stats-title region-title">
+          <!-- Insert region name + status with JS function -->
+        </h2>
+        <div class="card-totalCases">
+          <h3 class="card-title">Total Cases</h3>
+          <span class="total-cases"></span>
+        </div>
+        <div class="card-changeCases">
+          <h3 class="card-title">Total Recoveries</h3>
+          <span class="change-cases"></span>
+        </div>
+        <div class="card-totalRecoveries">
+          <h3 class="card-title">Total Recoveries</h3>
+          <span class="total-regionRecoveries"></span>
+        </div>
       </div>
       </div>
     </div>
