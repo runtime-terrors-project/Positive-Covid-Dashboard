@@ -1,0 +1,23 @@
+{
+  "name": "Positive-Covid-Dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard geared towards showing positive progress in the fight against covid-19",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build assets/css/tailwind.css -o assets/css/src.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runtime-terrors-project/Positive-Covid-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runtime-terrors-project/Positive-Covid-Dashboard/issues"
+  },
+  "homepage": "https://github.com/runtime-terrors-project/Positive-Covid-Dashboard#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  }
+}
